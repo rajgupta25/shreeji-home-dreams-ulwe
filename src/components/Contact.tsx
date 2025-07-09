@@ -64,8 +64,8 @@ const Contact = () => {
                 <CardContent className="p-6 text-center">
                   <Phone className="h-8 w-8 text-yellow-500 mx-auto mb-4" />
                   <h3 className="font-semibold text-slate-900 mb-2">Call Us</h3>
-                  <a href="tel:+919876543210" className="text-yellow-600 hover:text-yellow-700 font-medium">
-                    +91 98765 43210
+                  <a href="tel:+917718019291" className="text-yellow-600 hover:text-yellow-700 font-medium">
+                    +91 77180 19291
                   </a>
                 </CardContent>
               </Card>
@@ -74,8 +74,8 @@ const Contact = () => {
                 <CardContent className="p-6 text-center">
                   <Mail className="h-8 w-8 text-yellow-500 mx-auto mb-4" />
                   <h3 className="font-semibold text-slate-900 mb-2">Email Us</h3>
-                  <a href="mailto:info@shreejienterprises.com" className="text-yellow-600 hover:text-yellow-700 font-medium">
-                    info@shreejienterprises.com
+                  <a href="mailto:contactus.shreejienterprises@gmail.com" className="text-yellow-600 hover:text-yellow-700 font-medium">
+                    contactus.shreejienterprises@gmail.com
                   </a>
                 </CardContent>
               </Card>
@@ -86,8 +86,7 @@ const Contact = () => {
                 <Clock className="h-8 w-8 text-yellow-500 mx-auto mb-4" />
                 <h3 className="font-semibold text-slate-900 mb-2">Operating Hours</h3>
                 <p className="text-slate-600">
-                  Monday - Saturday: 9:00 AM - 8:00 PM<br />
-                  Sunday: 10:00 AM - 6:00 PM
+                  All Days: 10:00 AM - 7:00 PM
                 </p>
               </CardContent>
             </Card>
@@ -95,7 +94,7 @@ const Contact = () => {
             {/* Google Maps Embed */}
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400/20">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5847344745945!2d73.0115816!3d19.0328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAyJzAwLjEiTiA3M8KwMDAnNDEuNyJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://maps.app.goo.gl/yLMx4QmWuBWgSaay7"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

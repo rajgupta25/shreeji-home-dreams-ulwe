@@ -35,15 +35,15 @@ const Footer = () => {
               
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-yellow-400 mr-3" />
-                <a href="tel:+919876543210" className="text-slate-300 hover:text-yellow-400 transition-colors">
-                  +91 98765 43210
+                <a href="tel:+917718019291" className="text-slate-300 hover:text-yellow-400 transition-colors">
+                  +91 77180 19291
                 </a>
               </div>
               
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-yellow-400 mr-3" />
-                <a href="mailto:info@shreejienterprises.com" className="text-slate-300 hover:text-yellow-400 transition-colors">
-                  info@shreejienterprises.com
+                <a href="mailto:contactus.shreejienterprises@gmail.com" className="text-slate-300 hover:text-yellow-400 transition-colors">
+                  contactus.shreejienterprises@gmail.com
                 </a>
               </div>
             </div>
@@ -55,8 +55,7 @@ const Footer = () => {
             <div className="flex items-start mb-6">
               <Clock className="h-5 w-5 text-yellow-400 mr-3 mt-1" />
               <div className="text-slate-300">
-                <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
-                <p>Sunday: 10:00 AM - 6:00 PM</p>
+                <p>All Days: 10:00 AM - 7:00 PM</p>
               </div>
             </div>
             

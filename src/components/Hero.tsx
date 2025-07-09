@@ -38,21 +38,12 @@ const Hero = () => {
             </h3>
           </div>
 
-          {/* Contact Info */}
-          <div className="mb-10">
-            <a 
-              href="tel:+917718019291" 
-              className="inline-block text-yellow-400 text-lg md:text-xl font-bold hover:text-yellow-300 transition-colors duration-300 bg-black/30 px-4 py-2 rounded-full border border-yellow-400/30"
-            >
-              +91 77180 19291
-            </a>
-          </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-500 transform hover:scale-105 shadow-2xl border-2 border-yellow-400 animate-pulse hover:animate-none relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:animate-[shimmer_2s_infinite] hover:shadow-yellow-400/50"
+              className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-500 transform hover:scale-105 shadow-2xl border-2 border-yellow-400 relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:animate-[shimmer_3s_infinite] hover:shadow-yellow-400/50"
             >
               Book Free Consultation
             </Button>
