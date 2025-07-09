@@ -1,67 +1,80 @@
 import { Phone, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import naviMumbaiSkyline from '@/assets/navi-mumbai-skyline.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-black to-slate-800 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{ 
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffd700' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          backgroundRepeat: 'repeat'
-        }}></div>
-      </div>
+    <section className="relative min-h-screen overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${naviMumbaiSkyline})` }}
+      />
+      
+      {/* Dark Elegant Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+      
+      {/* Subtle Gold Glow Effect */}
+      <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/20 via-transparent to-transparent" />
 
-      <div className="relative container mx-auto px-4 py-12 lg:py-20">
+      <div className="relative container mx-auto px-4 py-16 lg:py-24 flex flex-col justify-center min-h-screen">
         <div className="text-center">
-          {/* Logo Section */}
+          {/* Logo Image */}
+          <div className="mb-8 flex justify-center">
+            <img 
+              src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
+              alt="Shreeji Enterprises Logo" 
+              className="h-32 md:h-40 lg:h-48 w-auto object-contain filter drop-shadow-2xl"
+            />
+          </div>
+
+          {/* Business Description */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 mb-2">
-              SHREEJI
-            </h1>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-yellow-400 tracking-wide">
-              ENTERPRISES
+            <h2 className="text-lg md:text-xl lg:text-2xl text-yellow-300 font-medium tracking-wide">
+              Real Estate | Rentals | Property Consulting
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 mx-auto mt-4"></div>
           </div>
 
           {/* Taglines */}
-          <div className="mb-12 space-y-4">
-            <h3 className="text-xl md:text-2xl lg:text-3xl text-white font-light italic">
+          <div className="mb-12 space-y-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold font-serif leading-tight">
               "Where Every Dream Finds a Home"
-            </h3>
-            <h3 className="text-lg md:text-xl lg:text-2xl text-yellow-400 font-light">
+            </h1>
+            <h3 className="text-xl md:text-2xl lg:text-3xl text-yellow-300 font-serif font-medium">
               "प्रत्येक स्वप्नाला मिळतं आपलं घर"
             </h3>
           </div>
 
           {/* Contact Info */}
-          <div className="mb-8">
-            <a href="tel:+919876543210" className="text-yellow-400 text-xl md:text-2xl font-semibold hover:text-yellow-300 transition-colors">
+          <div className="mb-10">
+            <a 
+              href="tel:+919876543210" 
+              className="inline-block text-yellow-400 text-2xl md:text-3xl font-bold hover:text-yellow-300 transition-colors duration-300 bg-black/30 px-6 py-3 rounded-full border border-yellow-400/30"
+            >
               +91 98765 43210
             </a>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold px-8 py-3 text-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-yellow-400"
             >
-              📅 Book Free Property Consultation
+              📅 Book Free Consultation
             </Button>
-            <div className="flex gap-3">
+            <div className="flex gap-4">
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300"
+                className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 font-bold px-8 py-4 backdrop-blur-sm bg-black/20"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
               </Button>
               <Button 
                 size="lg" 
-                className="bg-green-600 hover:bg-green-700 text-white transition-all duration-300"
+                className="bg-green-600 hover:bg-green-700 text-white transition-all duration-300 font-bold px-8 py-4 shadow-lg border-2 border-green-500"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
@@ -70,8 +83,8 @@ const Hero = () => {
           </div>
 
           {/* Location Badge */}
-          <div className="inline-block bg-gradient-to-r from-yellow-400/20 to-yellow-600/20 border border-yellow-400/30 rounded-full px-6 py-2">
-            <span className="text-yellow-400 font-medium">📍 Ulwe, Navi Mumbai</span>
+          <div className="inline-block bg-gradient-to-r from-yellow-400/20 to-yellow-600/20 border-2 border-yellow-400/40 rounded-full px-8 py-3 backdrop-blur-sm">
+            <span className="text-yellow-300 font-bold text-lg">📍 Real Estate, Rentals, and Investments in Ulwe</span>
           </div>
         </div>
       </div>
