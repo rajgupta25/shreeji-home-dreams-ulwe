@@ -24,15 +24,8 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
               alt="Shreeji Enterprises Logo" 
-              className="h-32 md:h-40 lg:h-48 w-auto object-contain filter drop-shadow-2xl"
+              className="h-48 md:h-56 lg:h-64 w-auto object-contain filter drop-shadow-2xl"
             />
-          </div>
-
-          {/* Business Description */}
-          <div className="mb-8">
-            <h2 className="text-lg md:text-xl lg:text-2xl text-yellow-300 font-medium tracking-wide">
-              Real Estate | Rentals | Property Consulting
-            </h2>
           </div>
 
           {/* Taglines */}
@@ -48,10 +41,10 @@ const Hero = () => {
           {/* Contact Info */}
           <div className="mb-10">
             <a 
-              href="tel:+919876543210" 
-              className="inline-block text-yellow-400 text-2xl md:text-3xl font-bold hover:text-yellow-300 transition-colors duration-300 bg-black/30 px-6 py-3 rounded-full border border-yellow-400/30"
+              href="tel:+917718019291" 
+              className="inline-block text-yellow-400 text-lg md:text-xl font-bold hover:text-yellow-300 transition-colors duration-300 bg-black/30 px-4 py-2 rounded-full border border-yellow-400/30"
             >
-              +91 98765 43210
+              +91 77180 19291
             </a>
           </div>
 
@@ -59,9 +52,9 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-yellow-400"
+              className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-500 transform hover:scale-105 shadow-2xl border-2 border-yellow-400 animate-pulse hover:animate-none relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:animate-[shimmer_2s_infinite] hover:shadow-yellow-400/50"
             >
-              📅 Book Free Consultation
+              Book Free Consultation
             </Button>
             <div className="flex gap-4">
               <Button 
@@ -84,7 +77,7 @@ const Hero = () => {
 
           {/* Location Badge */}
           <div className="inline-block bg-gradient-to-r from-yellow-400/20 to-yellow-600/20 border-2 border-yellow-400/40 rounded-full px-8 py-3 backdrop-blur-sm">
-            <span className="text-yellow-300 font-bold text-lg">📍 Real Estate, Rentals, and Investments in Ulwe</span>
+            <span className="text-yellow-300 font-bold text-lg">Real Estate, Rentals, and Investments in Ulwe</span>
           </div>
         </div>
       </div>

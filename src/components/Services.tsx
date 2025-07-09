@@ -29,7 +29,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-600">Premium</span> Services
+            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-600">Trusted</span> Services
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Experience excellence in every transaction with our comprehensive real estate solutions
