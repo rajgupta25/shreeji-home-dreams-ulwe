@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 py-16 lg:py-24 flex flex-col justify-center min-h-screen">
         <div className="text-center">
           {/* Logo Image */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-6 flex justify-center">
             <img 
               src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
               alt="Shreeji Enterprises Logo" 
@@ -61,6 +61,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-green-600 hover:bg-green-700 text-white transition-all duration-300 font-bold px-8 py-4 shadow-lg border-2 border-green-500"
+                onClick={() => window.open('https://wa.me/917718019291?text=Hello+I%27m+interested+in+Shreeji+Enterprises+Properties', '_blank')}
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
