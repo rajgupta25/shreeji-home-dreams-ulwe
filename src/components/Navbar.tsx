@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/20 border-b border-white/10">
-      <div className="container mx-auto px-4 py-3">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/30 border-b border-yellow-400/20 shadow-[0_8px_32px_rgba(0,0,0,0.3)]">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <Button 
               size="sm"
-              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-semibold px-4 py-2 text-sm"
+              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-semibold px-6 py-3 text-sm shadow-[0_4px_16px_rgba(255,215,0,0.3)] hover:shadow-[0_6px_24px_rgba(255,215,0,0.4)] transform hover:scale-105 transition-all duration-300"
               onClick={() => window.open('https://calendly.com/bizz-shreejienterprises/30min', '_blank')}
             >
               Book Consultation
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <Button 
               size="sm"
-              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-semibold"
+              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-semibold shadow-[0_4px_16px_rgba(255,215,0,0.3)] hover:shadow-[0_6px_24px_rgba(255,215,0,0.4)] transform hover:scale-105 transition-all duration-300"
               onClick={() => window.open('tel:+917718019291', '_self')}
             >
               Call Now
