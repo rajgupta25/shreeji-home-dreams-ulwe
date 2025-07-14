@@ -24,13 +24,13 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
               alt="Shreeji Enterprises Logo" 
-              className="h-48 md:h-56 lg:h-64 w-auto object-contain filter drop-shadow-2xl"
+              className="h-56 md:h-72 lg:h-80 w-auto object-contain filter drop-shadow-2xl"
             />
           </div>
 
           {/* Taglines */}
           <div className="mb-12 space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold font-serif leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold font-playfair leading-tight">
               "Where Every Dream Finds a Home"
             </h1>
             <h3 className="text-xl md:text-2xl lg:text-3xl text-yellow-300 font-serif font-medium">
@@ -44,6 +44,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-10 py-4 text-lg transition-all duration-500 transform hover:scale-105 shadow-2xl border-2 border-yellow-400 relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:animate-[shimmer_3s_infinite] hover:shadow-yellow-400/50"
+              onClick={() => window.open('https://calendly.com/bizz-shreejienterprises/30min', '_blank')}
             >
               Book Free Consultation
             </Button>
@@ -52,6 +53,7 @@ const Hero = () => {
                 size="lg" 
                 variant="outline" 
                 className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-300 font-bold px-8 py-4 backdrop-blur-sm bg-black/20"
+                onClick={() => window.open('tel:+917718019291', '_self')}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now

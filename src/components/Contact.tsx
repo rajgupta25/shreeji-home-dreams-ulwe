@@ -74,8 +74,8 @@ const Contact = () => {
                 <CardContent className="p-6 text-center">
                   <Mail className="h-8 w-8 text-yellow-500 mx-auto mb-4" />
                   <h3 className="font-semibold text-slate-900 mb-2">Email Us</h3>
-                  <a href="mailto:contactus.shreejienterprises@gmail.com" className="text-yellow-600 hover:text-yellow-700 font-medium">
-                    contactus.shreejienterprises@gmail.com
+                  <a href="mailto:bizz.shreejienterises@gmail.com" className="text-yellow-600 hover:text-yellow-700 font-medium">
+                    bizz.shreejienterises@gmail.com
                   </a>
                 </CardContent>
               </Card>
@@ -94,7 +94,7 @@ const Contact = () => {
             {/* Google Maps Embed */}
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400/20">
               <iframe
-                src="https://maps.app.goo.gl/yLMx4QmWuBWgSaay7"
+                src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1!2d73.028762!3d18.977856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU4JzQwLjMiTiA3M8KwMDEnNDMuNSJF!5e0!3m2!1sen!2sin!4v1629789456123!5m2!1sen!2sin`}
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
