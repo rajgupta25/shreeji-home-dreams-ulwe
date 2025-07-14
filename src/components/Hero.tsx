@@ -24,7 +24,7 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
               alt="Shreeji Enterprises Logo" 
-              className="h-56 md:h-72 lg:h-80 w-auto object-contain filter drop-shadow-2xl"
+              className="h-48 md:h-64 lg:h-72 w-auto object-contain filter drop-shadow-2xl"
             />
           </div>
 
