@@ -41,31 +41,31 @@ const Hero = () => {
 
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12 px-4 sm:px-0">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-12 py-5 text-lg transition-all duration-500 transform hover:scale-105 shadow-[0_20px_40px_rgba(255,215,0,0.3)] hover:shadow-[0_25px_50px_rgba(255,215,0,0.4)] border-2 border-yellow-400 relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:animate-[shimmer_3s_infinite] backdrop-blur-sm"
+              className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-black font-bold px-6 sm:px-12 py-4 sm:py-5 text-base sm:text-lg transition-all duration-500 transform hover:scale-105 shadow-[0_20px_40px_rgba(255,215,0,0.3)] hover:shadow-[0_25px_50px_rgba(255,215,0,0.4)] border-2 border-yellow-400 relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:animate-[shimmer_3s_infinite] backdrop-blur-sm"
               onClick={() => window.open('https://calendly.com/bizz-shreejienterprises/30min', '_blank')}
             >
               Book Free Consultation
             </Button>
-            <div className="flex gap-4">
-              <Button 
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
+              <Button
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-yellow-400/80 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-500 font-bold px-10 py-5 backdrop-blur-md bg-black/30 hover:bg-yellow-400 shadow-[0_8px_32px_rgba(255,215,0,0.2)] hover:shadow-[0_12px_48px_rgba(255,215,0,0.4)] hover:scale-105 transform"
+                className="w-full sm:w-auto border-2 border-yellow-400/80 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all duration-500 font-bold px-6 sm:px-10 py-4 sm:py-5 backdrop-blur-md bg-black/30 hover:bg-yellow-400 shadow-[0_8px_32px_rgba(255,215,0,0.2)] hover:shadow-[0_12px_48px_rgba(255,215,0,0.4)] hover:scale-105 transform"
                 onClick={() => window.open('tel:+917718019291', '_self')}
               >
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now
+                <Phone className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">Call Now</span>
               </Button>
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white transition-all duration-500 font-bold px-10 py-5 shadow-[0_8px_32px_rgba(34,197,94,0.3)] hover:shadow-[0_12px_48px_rgba(34,197,94,0.4)] border-2 border-green-500 hover:scale-105 transform backdrop-blur-sm"
+                className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white transition-all duration-500 font-bold px-6 sm:px-10 py-4 sm:py-5 shadow-[0_8px_32px_rgba(34,197,94,0.3)] hover:shadow-[0_12px_48px_rgba(34,197,94,0.4)] border-2 border-green-500 hover:scale-105 transform backdrop-blur-sm"
                 onClick={() => window.open('https://wa.me/917718019291?text=Hello+I%27m+interested+in+Shreeji+Enterprises+Properties', '_blank')}
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
-                WhatsApp
+                <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">WhatsApp</span>
               </Button>
             </div>
           </div>
