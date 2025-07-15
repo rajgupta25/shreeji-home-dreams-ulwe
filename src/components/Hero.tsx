@@ -21,17 +21,17 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 py-16 lg:py-24 flex flex-col justify-center min-h-screen">
         <div className="text-center">
           {/* Logo Image */}
-          <div className="mb-8 md:mb-4 flex justify-center">
+          <div className="mb-3 md:mb-4 flex justify-center">
             <img 
               src="/lovable-uploads/3c25c0c4-6fea-4f2f-aa1c-631af87d3a06.png" 
               alt="Shreeji Enterprises Logo" 
-              className="h-48 md:h-64 lg:h-72 w-auto object-contain filter drop-shadow-[0_8px_32px_rgba(255,215,0,0.3)]"
+              className="h-48 md:h-56 lg:h-60 w-auto object-contain filter drop-shadow-[0_8px_32px_rgba(255,215,0,0.3)]"
             />
           </div>
 
           {/* Taglines */}
           <div className="mb-12 space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-6xl text-white font-bold font-playfair leading-tight tracking-wide drop-shadow-lg">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold font-playfair leading-tight tracking-wide drop-shadow-lg">
               "Where Every Dream Finds a Home"
             </h1>
             <h3 className="text-xl md:text-2xl lg:text-3xl text-yellow-300 font-serif font-medium tracking-wide drop-shadow-md">
